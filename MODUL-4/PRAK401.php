@@ -18,7 +18,6 @@
 <body>
 
 <?php
-// Siapkan variabel awal
 $panjang = "";
 $lebar = "";
 $nilai_input = "";
