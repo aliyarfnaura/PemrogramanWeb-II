@@ -18,7 +18,6 @@ if (isset($_POST['submit'])) {
     $b = $_POST['nama2'];
     $c = $_POST['nama3'];
 
-    // Kondisi pengurutan manual (tanpa sort())
     if ($a <= $b && $a <= $c) {
         $pertama = $a;
         if ($b <= $c) {
